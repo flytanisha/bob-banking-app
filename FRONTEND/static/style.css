@@ -1,0 +1,38 @@
+/* ============================================================
+   style.css — SecureBank custom styles
+   All rules supplement Bootstrap; none override its grid system.
+   ============================================================ */
+
+body {
+  background-color: #f0f4f8;
+}
+
+.sb-navbar {
+  background-color: #1a3c6e;
+}
+
+.sb-balance-card {
+  border: 2px solid #1a3c6e;
+  border-radius: 0.75rem;
+}
+
+.balance-amount {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a3c6e;
+  letter-spacing: -0.02em;
+}
+
+.card {
+  border-radius: 0.6rem;
+}
+
+.card-header {
+  background-color: #f7f8fa;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.container > .row.justify-content-center {
+  min-height: calc(100vh - 130px);
+  align-items: center;
+}

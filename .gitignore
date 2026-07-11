@@ -1,0 +1,25 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Database
+*.db
+*.sqlite3
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Bob / IDE
+.bob/
+
+# macOS
+.DS_Store
+
+# docs
+docs/
